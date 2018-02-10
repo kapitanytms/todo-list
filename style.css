@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center top;
-    margin-bottom: 0px;
+    margin-bottom: 60px;
     background-color: rgb(37,14,34);
 }
 
@@ -45,11 +45,12 @@ hr {
 
 .rmv-btn {
     border-radius: 50%;
+    margin-left: 4px;
 }
 
 .tick-btn {
     border-radius: 50%;
-    margin-right: 2px;
+
 }
 
 input[type="text"] {
@@ -64,6 +65,8 @@ input[type="text"]:focus {
 }
 
 .myLi {
-    background-color: rgba(211, 211, 212, .1);
-    color: rgb(211, 211, 212);
+    background-color: rgba(211, 211, 212, .6);
+    color: rgb(12, 67, 106);
+    font-weight: bold;
+    letter-spacing: .2em;
 }
